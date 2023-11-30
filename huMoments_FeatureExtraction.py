@@ -51,7 +51,7 @@ def extractHuMomentsFeatures(images):
     for image in images:
         if (np.ndim(image) > 2): # > 2 = colorida
             image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
-            moments   = cv2.moments(im) # Calculo dos momentos centrais 
+            moments   = cv2.moments(image) # Calculo dos momentos centrais 
             huMoments = cv2.HuMoments(moments).flatten() # Recebe os momentos centrais e devolve os HuMoments
             logTransFormedHuMoments = -1* np.copysign(1.0, huMoments) * np.log10(abs(huMoments)) # Usa logs para escalar as fetures do Hu Moments
             featuresList.append(logTransFormedHuMoments)
