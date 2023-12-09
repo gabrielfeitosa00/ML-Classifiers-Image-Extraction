@@ -7,7 +7,7 @@
 - Vinicius Lara RA: 2211254
 
 ## Dependências
-O Código fonte do repositório se encontra no [link](https://github.com/gabrielfeitosa00/ML-Classifiers-Image-Extraction).
+O Código fonte do repositório se encontra [neste repositório do GitHub](https://github.com/gabrielfeitosa00/ML-Classifiers-Image-Extraction).
 
 Para execução do projeto são necessárias as seguintes bibliotecas:
 
@@ -16,7 +16,7 @@ Para execução do projeto são necessárias as seguintes bibliotecas:
 * sklearn
 * numpy
 
-O dataset utilizado no projeto se encontra [neste repositório do GitHub](https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays).
+O dataset utilizado no projeto se encontra [neste link no Kaggle](https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays).
 
 Para que o projeto funcione corretamente, estruture as pastas das imgens da seguinte maneira:
 
