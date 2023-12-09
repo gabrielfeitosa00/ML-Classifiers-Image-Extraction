@@ -9,11 +9,11 @@
 ## Dependências
 O Código fonte do repositório se encontra [neste repositório do GitHub](https://github.com/gabrielfeitosa00/ML-Classifiers-Image-Extraction).
 
-Para execução do projeto são necessárias as seguintes bibliotecas:
+Para a execução do projeto, é necessário instalar as seguintes bibliotecas:
 
-* cv2
-* bar
-* sklearn
+* opencv-python
+* progress
+* scikit-learn
 * numpy
 
 O dataset utilizado no projeto se encontra [neste link no Kaggle](https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays).
@@ -43,14 +43,14 @@ Onde i e j são números inteiros e I(x,y) representa a intensidade de um determ
 
 ![Alt text](https://learnopencv.com/wp-content/ql-cache/quicklatex.com-e5a36c413410b5751103411993ce127a_l3.png)
 
-Os momentos centrais de uma imagem são independentes de translação, no entanto ainda são dependentes de escala e rotação. Para isso são calculados os Hu moments uma série de 7 momentos que são baseados nos momentos centrais de uma imagem, os 6 primeiros momentos são independentes de translação, escala e rotação e o último permite a distinção entre imagens espelhadas com a mesma forma. Destes 7 valores podem ser extraídos um vetor de características da imagem.
+Os momentos centrais de uma imagem são independentes de translação, no entanto ainda são dependentes de escala e rotação. Para isso são calculados os Hu moments, que são uma série de 7 momentos baseados nos momentos centrais de uma imagem, os 6 primeiros momentos são independentes da translação, escala e rotação e o último permite a distinção entre imagens espelhadas com a mesma forma. Destes 7 valores podem ser extraídos um vetor de características da imagem.
 
 
 ## Classificadores
 
-Como o trabalho fez uso do projeto da classificação como base ele utilizou os mesmos classificadores sendo eles Random Forest, Support Vector Machine e uma Rede Neural do tipo Perceptron.
+Como o trabalho fez uso do projeto da classificação como base ele utilizou os mesmos classificadores, sendo eles: Random Forest, Support Vector Machine e uma Rede Neural do tipo Perceptron.
 
-Depois de rodar cada um dos clássficadores, os resultados obtidos de acurácia foram os seguintes:
+Depois de rodar cada um dos classficadores, os resultados obtidos de acurácia foram os seguintes:
 
 * Random Forest: 89.29%
 * Support Vector Machine: 85.71%
