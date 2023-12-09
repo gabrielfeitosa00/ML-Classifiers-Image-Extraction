@@ -53,3 +53,7 @@ Depois de executar cada um dos classficadores, os resultados de acurácia obtido
 * Random Forest: 89.29%
 * Support Vector Machine: 85.71%
 * Rede Neural: 80.36%
+
+## Apresentação
+
+[Link onde pode ser encontrado a apresentação do trabalho:](https://drive.google.com/file/d/1Im_f3oMrDMbTm4HmBPH0SI6m9Ctyr5WG/view?usp=sharing)
