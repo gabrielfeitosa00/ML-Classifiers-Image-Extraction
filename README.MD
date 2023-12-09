@@ -18,7 +18,7 @@ Para execução do projeto são necessárias as seguintes bibliotecas:
 
 O dataset utilizado no projeto se encontra [neste link no Kaggle](https://www.kaggle.com/datasets/tarandeep97/covid19-normal-posteroanteriorpa-xrays).
 
-Para que o projeto funcione corretamente, estruture as pastas das imgens da seguinte maneira:
+Para que o projeto funcione corretamente, estruture as pastas das imagens da seguinte maneira:
 
 ```
 .
